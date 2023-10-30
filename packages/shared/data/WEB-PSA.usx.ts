@@ -1,4 +1,4 @@
-export const CSB_PSA_USX = `
+export const WEB_PSA_USX = `
 <usx version="3.0"><book code="PSA" style="id">World English Bible (WEB)</book><para style="ide">UTF-8</para><para style="h">Psalms</para><para style="toc1">The Psalms</para><para style="toc2">Psalms</para><para style="toc3">Psalm</para><para style="mt1">The Psalms</para><para style="cl">Psalm</para>
 <chapter number="1" style="c" /><para style="ms1">BOOK 1</para><para style="q1">
 <verse number="1" style="v" />Blessed is the man who doesn’t walk in the counsel of the wicked,</para><para style="q2">nor stand on the path of sinners,</para><para style="q2">nor sit in the seat of scoffers;</para><para style="q1">
