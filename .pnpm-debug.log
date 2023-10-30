@@ -1,0 +1,24 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "/project/scripture-editor"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "not found: nx",
+      "code": "ENOENT",
+      "stack": "Error: not found: nx\n    at getNotFoundError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41670:51)\n    at Function.whichSync [as sync] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41747:13)\n    at getCommandAbsolutePathSync (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43312:44)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43321:32)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:172142:39"
+    }
+  },
+  "2 error pnpm": {
+    "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+    "prefix": "/project/scripture-editor",
+    "err": {
+      "name": "pnpm",
+      "message": "not found: nx",
+      "code": "ERR_PNPM_RECURSIVE_EXEC_FIRST_FAIL",
+      "stack": "Error: not found: nx\n    at getNotFoundError (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41670:51)\n    at Function.whichSync [as sync] (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:41747:13)\n    at getCommandAbsolutePathSync (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43312:44)\n    at default_1 (/usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:43321:32)\n    at /usr/local/lib/node_modules/pnpm/dist/pnpm.cjs:172142:39"
+    }
+  }
+}
