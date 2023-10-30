@@ -1,0 +1,33 @@
+{
+  "name": "shared",
+  "private": "true",
+  "keywords": [
+    "react",
+    "lexical",
+    "editor",
+    "rich-text"
+  ],
+  "license": "MIT",
+  "version": "0.4.0",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "@lexical/utils": "^0.12.2",
+    "epitelete": "^0.2.20",
+    "lexical": "0.12.2"
+  },
+  "devDependencies": {
+    "proskomma-core": "^0.10.4",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "proskomma-core": "^0.10.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/irahopkinson/scripture-editor",
+    "directory": "packages/shared"
+  }
+}
